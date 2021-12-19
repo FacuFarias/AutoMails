@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Notas</class>
+ <widget class="QDialog" name="Notas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>302</width>
+    <height>294</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family:century gothic;
+color:white;
+}
+
+QDialog{
+background:  rgba(2, 14, 38, 255)
+
+}
+
+QFrame
+{
+background: #020E26;
+border-radius: 15px;
+}
+
+QToolButton
+{
+background: #2d89ef;
+border-radius: 15px;
+}
+
+QToolButton:hover
+{
+background:  #2b5797;
+border-radius: 15px;
+}
+
+QLabel{
+color:white;
+font-weight:bold;
+
+}
+
+QLineEdit
+{
+background:#1d1d1d;
+border:none;
+border-bottom: 1px solid white;
+color:white;
+}
+
+QPushButton{
+background: #2d89ef;
+color: white;
+border-radius: 5px;
+}
+
+QPushButton:hover{
+background: #2b5797;
+color: white;
+border-radius: 5px;
+font-weight:bold;
+}
+
+QGroupBox{
+color:white;
+
+}
+
+QGroupBox#ref{
+color:white;
+}
+
+QLabel#Titulo
+{
+font-size:20px;
+}
+QTableWidget
+{
+color:white;
+text-align:center;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="Titulo">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enviar notas</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_desc">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>¿Que notas desea enviar?</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>171</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QCheckBox" name="cb_tp">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Parcial 4</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Parcial 1</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Parcial 3</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Parcial 2</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enviar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>250</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
