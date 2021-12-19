@@ -1,5 +1,7 @@
 # AutoMails
 
+Para la ejecución de este programa utiliza main.pyw , no main.py
+
 En este programa se busca poder hacer carga y eliminación de la información de usuarios (en este caso es de un curso de evaluación, pero podría aplicarse a cualquier conjunto de datos). Además, se hará el envío de mails de forma personalizada a cada persona en la base de datos con sus respectivas notas, y en caso de que haya aprobado el curso, se hará la generación y envío del certificado correspondiente.
 
 Para el desarrollo de este software se ha utilizado Python como lenguaje de programación.
